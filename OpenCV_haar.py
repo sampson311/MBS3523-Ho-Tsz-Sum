@@ -11,7 +11,7 @@ while True:
             imgGray = cv2.cvtColor(imgGray, cv2.COLOR_BGR2GRAY)
             imgGray[100:300, 300:500] = imgCrop
 
-            cv2.putText(img, "Sampson", (125, 225), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
+            cv2.putText(img, "MBS3523 Assigbnebt 1c - Q4   Name: Ho Tsz Sum", (125, 225), cv2.FONT_HERSHEY_PLAIN, 2, (0, 0, 255), 2)
             cv2.imshow('img', img)
             cv2.imshow('imgGray', imgGray)
             cv2.imshow('imgCrop', imgCrop)
